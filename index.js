@@ -1,6 +1,6 @@
-var user1 = { nome: "Ramon", vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
-var user2 = { nome: "Karen", vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
-var user3 = { nome: "Ione", vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
+var user1 = { nome: "Jogador 1", vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
+var user2 = { nome: "Jogador 2", vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
+var user3 = { nome: "Jogador 3", vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
 
 function calculaPontos(user) {
   var pontos = user.vitorias * 3 + user.empates;
